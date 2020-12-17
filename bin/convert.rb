@@ -23,7 +23,7 @@ FileUtils.mkdir_p('data')
 puts 'MakeDir'
 index = 0
 puts index
-records = SmarterCSV.process('austin-2015-11-07-reviews.csv', options)
+records = SmarterCSV.process('', options)
 records.each do |record|
   puts index
   # unless record[:text].to_s.strip.empty?
